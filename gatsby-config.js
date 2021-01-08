@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [`gatsby-plugin-transition-link`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Special Elite', 'Merriweather']
+        }
+      }
+    }
+  ],
 }

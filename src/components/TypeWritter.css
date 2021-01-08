@@ -1,0 +1,15 @@
+.fullBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.introText{
+    width: 70%;
+    margin: auto;
+    margin-top: 10vh;
+    font-family: 'Special Elite', cursive;
+}
+
